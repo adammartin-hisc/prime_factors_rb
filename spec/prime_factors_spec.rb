@@ -14,4 +14,8 @@ describe Primes do
 	it 'returns [3] for the primes of 3' do
 		expect(primes.factors 3).to eq [3]
 	end
+
+	it 'returns [2, 2] for the primes of 4' do
+		expect(primes.factors 4).to eq [2,2]
+	end
 end
