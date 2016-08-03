@@ -22,4 +22,8 @@ describe Primes do
 	it 'returns [2, 3] for the primes of 6' do
 		expect(primes.factors 6).to eq [2,3]
 	end
+
+	it 'returns [2, 2, 2] for the primes of 8' do
+		expect(primes.factors 8).to eq [2, 2, 2]
+	end
 end
