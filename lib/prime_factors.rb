@@ -1,10 +1,13 @@
 class Primes
 	def factors number
 		primes = []
-		return primes unless number > 1
-		while number % 2 == 0 do
-			number /= 2
-			primes << 2
+		candidate = 2
+		while number > 1 do
+			while number % candidate == 0 do
+				number /= candidate
+				primes << candidate
+			end
+			candidate += 1
 		end
 		primes << number if number > 1
 		primes
