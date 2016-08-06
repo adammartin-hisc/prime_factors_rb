@@ -1,0 +1,1 @@
+Well done kata.  He started in a different format then I had seen but ended up with some nice refactors that I was impressed with.
